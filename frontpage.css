@@ -32,6 +32,10 @@ body {
     color:black;
 }
 
+.navigation a:hover {
+    text-decoration:underline;
+}
+
 .navigation-header{
     font-weight: bolder;
     font-size:18px;
@@ -81,6 +85,16 @@ body {
     height:226.19px;
 }
 
+.fas {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.book-info i {
+    text-align: center;
+}
+
 /* login page css */
 
 .login-main {
@@ -112,6 +126,7 @@ body {
     border:1px solid black;
     padding:0.7rem 5rem;
     margin:0.5rem;
+    outline: none;
 }
 
 .login-heading {
@@ -138,6 +153,35 @@ body {
     margin-top: 1rem;
     opacity: 0.75;
 }
+
 .button-primary:hover {
     opacity:1;
 }
+
+
+.Footer {
+    display:flex;
+    justify-content:space-around;
+    background-color: #f3f4f5;
+    flex-wrap:wrap;
+    
+}
+
+.footer-about {
+    flex-wrap:wrap;
+    width:30%;
+}
+
+.footer-navigation a {
+    text-decoration:none;
+    color:black;
+}
+
+.footer-navigation a:hover {
+    text-decoration:underline;
+}
+
+.wave svg {
+    display: block;
+}
+
